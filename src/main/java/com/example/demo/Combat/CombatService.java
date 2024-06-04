@@ -1,7 +1,6 @@
-package com.example.demo.Services;
+package com.example.demo.Combat;
 
-import com.example.demo.Views.Monster;
-import com.example.demo.Views.Player;
+import com.example.demo.Player.Player;
 
 public class CombatService {
     public void combatLoop(Player player) {

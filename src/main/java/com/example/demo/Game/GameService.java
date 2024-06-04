@@ -1,8 +1,10 @@
-package com.example.demo.Services;
+package com.example.demo.Game;
 
-import com.example.demo.Views.Monster;
-import com.example.demo.Views.Player;
-import com.example.demo.Views.Room;
+import com.example.demo.Monster.MonsterService;
+import com.example.demo.Room.RoomService;
+import com.example.demo.Monster.Monster;
+import com.example.demo.Player.Player;
+import com.example.demo.Room.Room;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.example.demo.Views;
+package com.example.demo.Weapon;
 
 public class Weapon {
     String name;

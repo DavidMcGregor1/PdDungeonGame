@@ -1,6 +1,4 @@
-package com.example.demo.Services;
-
-import com.example.demo.Views.Room;
+package com.example.demo.Room;
 
 public class RoomService {
 

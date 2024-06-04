@@ -1,4 +1,6 @@
-package com.example.demo.Views;
+package com.example.demo.Player;
+
+import com.example.demo.Weapon.Weapon;
 
 public class Player {
     String name;

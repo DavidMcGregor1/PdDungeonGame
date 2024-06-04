@@ -1,6 +1,4 @@
-package com.example.demo.Services;
-
-import com.example.demo.Views.Monster;
+package com.example.demo.Monster;
 
 import java.util.Random;
 

@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import com.example.demo.Services.GameService;
+import com.example.demo.Game.GameService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

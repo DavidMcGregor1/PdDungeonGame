@@ -1,4 +1,4 @@
-package com.example.demo.Views;
+package com.example.demo.Monster;
 
 public class Monster {
     String name;
