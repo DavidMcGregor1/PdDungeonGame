@@ -1,6 +1,7 @@
 package com.example.demo.Game;
 
 import com.example.demo.Game.GameService;
+import com.example.demo.Player.Player;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,8 +13,7 @@ import java.util.Map;
 @Controller
 public class GameController {
 
-    private GameService gameService;
-
+    private GameService gameService = new GameService();
 
     @GetMapping("/game")
     public Map<String, String> game() {
@@ -22,17 +22,4 @@ public class GameController {
         response.put("description", gameService.getCurrentRoomDescription());
         return response;
     }
-
-    @PostMapping("/move")
-    public Map<String, Object> move(@RequestBody Map<String, String> request) {
-        String direction = request.get("direction");
-        gameService.movePlayer(direction);
-
-        // Return the updated room description and health status
-        Map<String, Object> response = new HashMap<>();
-        response.put("description", gameService.getCurrentRoomDescription());
-        response.put("health", gameService.getCurrentHealth());  // Assuming you have a method to get current health
-        return response;
-    }
-
 }
