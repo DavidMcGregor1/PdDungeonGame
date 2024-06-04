@@ -1,15 +1,15 @@
 package com.example.demo.Views;
 
-public class Player {
+public class Monster {
     String name;
     int health;
     int level;
-    Weapon weapon;
+    int damage;
 
-    public Player(String name, int health, int level, Weapon weapon) {
+    public Monster(String name, int health, int level, int damage) {
         this.name = name;
         this.health = health;
         this.level = level;
-        this.weapon = weapon;
+        this.damage = damage;
     }
 }

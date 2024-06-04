@@ -1,17 +1,25 @@
 package com.example.demo.Services;
 
+import com.example.demo.Views.Monster;
+import com.example.demo.Views.Player;
 import com.example.demo.Views.Room;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class GameService {
 
     RoomService roomService = new RoomService();
     private Scanner scanner;
+    Random random;
     Room currentRoom;
 
     public void startGame() {
+
         System.out.println("Game started!");
+
+        Player player = new Player("Player 1", 100, 1, null);
+
 
         currentRoom = roomService.createRooms();
         boolean gameRunning = true;
@@ -19,6 +27,7 @@ public class GameService {
 
         while (gameRunning) {
             System.out.println("You are currently in " + currentRoom.getName() + ". Choose a direction (N, E, S, W):");
+            spawnMonsterOrNo();
             scanner = new Scanner(System.in);
             String input = scanner.nextLine();
 
@@ -31,9 +40,19 @@ public class GameService {
             }
         }
 
-
-
     }
+
+    public Monster spawnMonsterOrNo() {
+        Random random = new Random();
+        int randomNumber = random.nextInt(2);
+        if (randomNumber == 1) {
+            System.out.println("A monster has appeared!");
+            return MonsterService.generateRandomMonster();
+        } else {
+            return null;
+        }
+    }
+
 
     public void movePlayer(String direction) {
         Room nextRoom = currentRoom.getNeighbour(direction);
@@ -44,6 +63,11 @@ public class GameService {
         } else {
             System.out.println("You cannot move in that direction.");
         }
+    }
+
+    // Add necessary methods to get current room description and health
+    public String getCurrentRoomDescription() {
+        return currentRoom.getDescription();  // Assuming Room has a getDescription() method
     }
 
 }

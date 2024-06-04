@@ -6,9 +6,12 @@ public class Room {
     public String name;
     public HashMap<String, Object> neighbours;
 
-    public Room(String name) {
+    public String description;
+
+    public Room(String name, String description) {
         this.name = name;
         this.neighbours = new HashMap<>();
+        this.description = description;
     }
 
     public void addNeighbour(String direction, Room room) {
@@ -25,5 +28,13 @@ public class Room {
 
     public HashMap<String, Object> getNeighbours() {
         return this.neighbours;
+    }
+
+    public String getDescription() {
+        return this.description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
