@@ -1,19 +1,25 @@
 package com.example.demo.Player;
 
+import com.example.demo.Loot.Loot;
 import com.example.demo.Monster.Monster;
 import com.example.demo.Weapon.Weapon;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Player {
     String name;
     int health;
     int level;
     Weapon weapon;
+    List<Loot> inventory = new ArrayList<>();
 
-    public Player(String name, int health, int level, Weapon weapon) {
+    public Player(String name, int health, int level, Weapon weapon, List<Loot> inventory) {
         this.name = name;
         this.health = health;
         this.level = level;
         this.weapon = weapon;
+        this.inventory = inventory;
     }
 
     public int getHealth() {
@@ -46,6 +52,14 @@ public class Player {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setInventory(List<Loot> inventory) {
+        this.inventory = inventory;
+    }
+
+    public List<Loot> getInventory() {
+        return inventory;
     }
 
     public void attack(Player player, Monster monster) {
