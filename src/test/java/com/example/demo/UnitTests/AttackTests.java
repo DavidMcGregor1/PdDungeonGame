@@ -8,8 +8,16 @@ import org.junit.jupiter.api.Test;
 public class AttackTests {
     PlayerSetup playerSetup = new PlayerSetup();
     @Test
-    public void playerCanAttackMonster() {}
-    Player player = playerSetup.createMockPlayer();
-    Monster monster = new Monster("Test Monster", 100, 2, 10);
+    public void playerCanAttackMonster() {
+
+        Player player = playerSetup.createMockPlayer();
+        Monster monster = new Monster("Test Monster", 100, 2, 10);
+        int monsterHealth = monster.getHealth();
+        player.attack(player, monster);
+        int expectedHealth = monsterHealth - player.getWeapon().getDamage();
+        assert(monster.getHealth() == expectedHealth);
+
+    }
+
 
 }

@@ -64,7 +64,7 @@ public class Player {
 
     public void attack(Player player, Monster monster) {
         System.out.println(player.getName() + " attacks " + monster.getName() + " with " + player.weapon.getName() + " for " + player.weapon.getDamage() + " damage!");
-        monster.setHealth(monster.getHealth() - player.weapon.getDamage());
+        monster.setHealth(monster.getHealth() - player.weapon.getDamage() -2);
         System.out.println(monster.getName() + " has " + monster.getHealth() + " health left!");
     }
 
