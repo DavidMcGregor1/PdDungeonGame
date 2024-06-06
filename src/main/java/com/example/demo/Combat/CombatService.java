@@ -14,6 +14,5 @@ public class CombatService {
 
         System.out.println("Combat loop ended");
 
-
     }
 }

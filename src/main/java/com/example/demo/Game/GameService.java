@@ -84,13 +84,15 @@ public class GameService {
 //     + ". Choose a direction (N, E, S, W):"
 
     public Monster spawnMonsterOrNo() {
-        Random random = new Random();
-        int randomNumber = random.nextInt(2);
-        if (randomNumber == 1) {
-            return MonsterService.generateRandomMonster();
-        } else {
-            return null;
-        }
+//        Random random = new Random();
+//        int randomNumber = random.nextInt(2);
+//        if (randomNumber == 1) {
+//            return MonsterService.generateRandomMonster();
+//        } else {
+//            return null;
+//        }
+        // uncomment for testing
+        return null;
     }
 
 
