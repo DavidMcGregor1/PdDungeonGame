@@ -7,6 +7,7 @@ import com.example.demo.Room.RoomService;
 import com.example.demo.Monster.Monster;
 import com.example.demo.Player.Player;
 import com.example.demo.Room.Room;
+import com.example.demo.Utils.Utils;
 import com.example.demo.Weapon.WeaponService;
 
 import java.util.ArrayList;
@@ -41,6 +42,7 @@ public class GameService {
             Monster currentMonster = spawnMonsterOrNo();
             if (currentMonster != null) {
                 System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
+                Utils.sleep(3000);
                 combatService.combatLoop(player, currentMonster);
                 System.out.println("Fight has ended... moving on");
             } else {

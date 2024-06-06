@@ -2,6 +2,7 @@ package com.example.demo.Player;
 
 import com.example.demo.Loot.Loot;
 import com.example.demo.Monster.Monster;
+import com.example.demo.Utils.Utils;
 import com.example.demo.Weapon.Weapon;
 
 import java.util.ArrayList;
@@ -65,10 +66,14 @@ public class Player {
     public void attack(Player player, Monster monster) {
         try {
             System.out.println(player.getName() + " attacks " + monster.getName() + " with " + player.getWeapon().getName() + " for " + player.getWeapon().getDamage() + " damage!");
-            Thread.sleep(1000);  // Pause for 1 second
+            Utils.sleep(3000);
+            System.out.println("---------------------------------");
+            System.out.println(" ");
             monster.setHealth(monster.getHealth() - player.getWeapon().getDamage());
             System.out.println(monster.getName() + " has " + monster.getHealth() + " health left!");
-            Thread.sleep(1000);  // Pause for 1 second
+            Thread.sleep(3000);  // Pause for 1 second
+            System.out.println("---------------------------------");
+            System.out.println(" ");
         } catch (InterruptedException e) {
             System.out.println("Combat was interrupted");
         }

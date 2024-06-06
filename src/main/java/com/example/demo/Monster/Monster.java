@@ -50,10 +50,14 @@ public class Monster {
     public void attack(Player player, Monster monster) {
         try {
             System.out.println(monster.getName() + " attacks " + player.getName() + " for " + monster.getDamage() + " damage!");
-            Thread.sleep(1000);  // Pause for 1 second
+            Thread.sleep(3000);  // Pause for 1 second
+            System.out.println("---------------------------------");
+            System.out.println(" ");
             player.setHealth(player.getHealth() - monster.getDamage());
             System.out.println(player.getName() + " has " + player.getHealth() + " health left!");
-            Thread.sleep(1000);  // Pause for 1 second
+            Thread.sleep(3000);  // Pause for 1 second
+            System.out.println("---------------------------------");
+            System.out.println(" ");
         } catch (InterruptedException e) {
             System.out.println("Combat was interrupted");
         }
