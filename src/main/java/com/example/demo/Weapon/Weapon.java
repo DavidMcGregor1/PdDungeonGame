@@ -4,9 +4,12 @@ public class Weapon {
     String name;
     int damage;
 
-    public Weapon(String name, int damage) {
+    WeaponRarity rarity;
+
+    public Weapon(String name, int damage, WeaponRarity rarity) {
         this.name = name;
         this.damage = damage;
+        this.rarity = rarity;
     }
 
     public int getDamage() {
@@ -23,5 +26,9 @@ public class Weapon {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public WeaponRarity getRarity() {
+        return this.rarity;
     }
 }

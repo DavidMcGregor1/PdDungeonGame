@@ -1,12 +1,16 @@
 package com.example.demo.Game;
 
 import com.example.demo.Combat.CombatService;
+import com.example.demo.Loot.Loot;
 import com.example.demo.Monster.MonsterService;
 import com.example.demo.Room.RoomService;
 import com.example.demo.Monster.Monster;
 import com.example.demo.Player.Player;
 import com.example.demo.Room.Room;
+import com.example.demo.Weapon.WeaponService;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,6 +18,7 @@ public class GameService {
 
     RoomService roomService = new RoomService();
     CombatService combatService = new CombatService();
+    WeaponService weaponService = new WeaponService();
     private Scanner scanner;
     Random random;
     Room currentRoom;
@@ -26,11 +31,15 @@ public class GameService {
         System.out.println("Welcome to the dungeon! What should we call you?");
         scanner = new Scanner(System.in);
         String playerName = scanner.nextLine();
-        Player player = new Player(playerName, 100, 1, null);
+        List<Loot> inventory = new ArrayList<>();
+        Player player = new Player(playerName, 100, 1, weaponService.generateRandomWeapon(), inventory);
         currentRoom = roomService.createRooms();
 
         while (gameRunning) {
             System.out.println("You are currently in " + currentRoom.getName());
+            System.out.println("Current health: " + player.getHealth() + " HP");
+            System.out.println("Current level: " + player.getLevel());
+            System.out.println("Current weapon: " + player.getWeapon().getName() + " (" + player.getWeapon().getDamage() + " damage)");
             Monster currentMonster = spawnMonsterOrNo();
             if (currentMonster != null) {
                 System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
