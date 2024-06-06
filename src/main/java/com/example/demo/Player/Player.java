@@ -63,9 +63,15 @@ public class Player {
     }
 
     public void attack(Player player, Monster monster) {
-        System.out.println(player.getName() + " attacks " + monster.getName() + " with " + player.weapon.getName() + " for " + player.weapon.getDamage() + " damage!");
-        monster.setHealth(monster.getHealth() - player.weapon.getDamage());
-        System.out.println(monster.getName() + " has " + monster.getHealth() + " health left!");
+        try {
+            System.out.println(player.getName() + " attacks " + monster.getName() + " with " + player.getWeapon().getName() + " for " + player.getWeapon().getDamage() + " damage!");
+            Thread.sleep(1000);  // Pause for 1 second
+            monster.setHealth(monster.getHealth() - player.getWeapon().getDamage());
+            System.out.println(monster.getName() + " has " + monster.getHealth() + " health left!");
+            Thread.sleep(1000);  // Pause for 1 second
+        } catch (InterruptedException e) {
+            System.out.println("Combat was interrupted");
+        }
     }
 
 
