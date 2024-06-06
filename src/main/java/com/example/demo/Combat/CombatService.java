@@ -12,5 +12,8 @@ public class CombatService {
             monster.attack(player, monster);
         }
 
+        System.out.println("Combat loop ended");
+
+
     }
 }

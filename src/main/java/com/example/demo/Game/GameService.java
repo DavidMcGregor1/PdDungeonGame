@@ -25,7 +25,6 @@ public class GameService {
 
     boolean gameRunning;
 
-
     public void startGame() {
         gameRunning = true;
         System.out.println("Welcome to the dungeon! What should we call you?");
@@ -34,16 +33,16 @@ public class GameService {
         List<Loot> inventory = new ArrayList<>();
         Player player = new Player(playerName, 100, 1, weaponService.generateRandomWeapon(), inventory);
         currentRoom = roomService.createRooms();
+        System.out.println("You are starting in " + currentRoom.getName());
+        askForDirection();
 
-        while (gameRunning) {
-            System.out.println("You are currently in " + currentRoom.getName());
-            System.out.println("Current health: " + player.getHealth() + " HP");
-            System.out.println("Current level: " + player.getLevel());
-            System.out.println("Current weapon: " + player.getWeapon().getName() + " (" + player.getWeapon().getDamage() + " damage)");
+        while (gameRunning && player.getHealth() > 0) {
+            displayMainInfo(player);
             Monster currentMonster = spawnMonsterOrNo();
             if (currentMonster != null) {
                 System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
                 combatService.combatLoop(player, currentMonster);
+                System.out.println("Fight has ended... moving on");
             } else {
                 System.out.println("No monster has appeared.");
                 askForDirection();
@@ -54,6 +53,17 @@ public class GameService {
 
 
         }
+    }
+
+    public void displayMainInfo(Player player) {
+        System.out.println("---------------------------------");
+        System.out.println(" ");
+        System.out.println("You are currently in " + currentRoom.getName());
+        System.out.println("Current health: " + player.getHealth() + " HP");
+        System.out.println("Current level: " + player.getLevel());
+        System.out.println("Current weapon: " + player.getWeapon().getName() + " (" + player.getWeapon().getDamage() + " damage)");
+        System.out.println(" ");
+        System.out.println("---------------------------------");
     }
 
     public void askForDirection() {
