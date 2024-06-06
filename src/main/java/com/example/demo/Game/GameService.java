@@ -22,7 +22,7 @@ public class GameService {
     WeaponService weaponService = new WeaponService();
     private Scanner scanner;
     Random random;
-    Room currentRoom;
+    public Room currentRoom;
 
     boolean gameRunning;
 
