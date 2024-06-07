@@ -9,8 +9,9 @@ public class PdDungeonGameApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PdDungeonGameApplication.class, args);
-		GameService gameService = new GameService();
-		gameService.startGame();
+//		GameService gameService = new GameService();
+//		gameService.startGame();
+		System.out.println("working");
 	}
 
 }
