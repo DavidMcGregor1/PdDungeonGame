@@ -30,10 +30,7 @@ public class GameService {
     public void startGame() {
         gameRunning = true;
         Player player = gameSetup.initialisePlayer();
-
-        currentRoom = roomService.createRooms();
-        logService.logInfo("");
-        System.out.println("You are starting in " + currentRoom.getName());
+        currentRoom = gameSetup.initialiseCurrentRoom();
         askForDirection();
 
         while (gameRunning && player.getHealth() > 0) {
@@ -51,7 +48,6 @@ public class GameService {
 
             scanner = new Scanner(System.in);
             String input = scanner.nextLine();
-
 
         }
     }
