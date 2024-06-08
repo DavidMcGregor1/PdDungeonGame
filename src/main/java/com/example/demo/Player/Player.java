@@ -2,7 +2,7 @@ package com.example.demo.Player;
 
 import com.example.demo.Loot.Loot;
 import com.example.demo.Monster.Monster;
-import com.example.demo.Utils.Utils;
+import com.example.demo.AppUtilities.Utils;
 import com.example.demo.Weapon.Weapon;
 
 import java.util.ArrayList;

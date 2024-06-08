@@ -1,13 +1,13 @@
 package com.example.demo.Game;
 
+import com.example.demo.AppUtilities.LogService;
 import com.example.demo.Combat.CombatService;
 import com.example.demo.Loot.Loot;
-import com.example.demo.Monster.MonsterService;
 import com.example.demo.Room.RoomService;
 import com.example.demo.Monster.Monster;
 import com.example.demo.Player.Player;
 import com.example.demo.Room.Room;
-import com.example.demo.Utils.Utils;
+import com.example.demo.AppUtilities.Utils;
 import com.example.demo.Weapon.WeaponService;
 
 import java.util.ArrayList;
@@ -19,7 +19,8 @@ public class GameService {
 
     RoomService roomService = new RoomService();
     CombatService combatService = new CombatService();
-    WeaponService weaponService = new WeaponService();
+    LogService logService = new LogService();
+    GameSetup gameSetup = new GameSetup();
     private Scanner scanner;
     Random random;
     public Room currentRoom;
@@ -28,18 +29,16 @@ public class GameService {
 
     public void startGame() {
         gameRunning = true;
-        System.out.println("Welcome to the dungeon! What should we call you?");
-        scanner = new Scanner(System.in);
-        String playerName = scanner.nextLine();
-        List<Loot> inventory = new ArrayList<>();
-        Player player = new Player(playerName, 100, 1, weaponService.generateRandomWeapon(), inventory);
+        Player player = gameSetup.initialisePlayer();
+
         currentRoom = roomService.createRooms();
+        logService.logInfo("");
         System.out.println("You are starting in " + currentRoom.getName());
         askForDirection();
 
         while (gameRunning && player.getHealth() > 0) {
             displayMainInfo(player);
-            Monster currentMonster = spawnMonsterOrNo();
+            Monster currentMonster = shouldSpawnMonster();
             if (currentMonster != null) {
                 System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
                 Utils.sleep(3000);
@@ -83,7 +82,7 @@ public class GameService {
 
 //     + ". Choose a direction (N, E, S, W):"
 
-    public Monster spawnMonsterOrNo() {
+    public Monster shouldSpawnMonster() {
 //        Random random = new Random();
 //        int randomNumber = random.nextInt(2);
 //        if (randomNumber == 1) {

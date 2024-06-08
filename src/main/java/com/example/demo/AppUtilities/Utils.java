@@ -1,6 +1,7 @@
-package com.example.demo.Utils;
+package com.example.demo.AppUtilities;
 
 public class Utils {
+
     public static void sleep(int milliseconds) {
         try {
             Thread.sleep(milliseconds);
