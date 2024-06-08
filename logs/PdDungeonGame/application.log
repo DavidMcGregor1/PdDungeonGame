@@ -1,0 +1,1400 @@
+PENIS 2024-06-08T20:24:32.854+0100 INFO info here
+PENIS 2024-06-08T20:24:32.861+0100 DEBUG debug here
+PENIS 2024-06-08T20:24:32.861+0100 ERROR error here
+PENIS 2024-06-08T20:43:16.957+0100 INFO Starting PdDungeonGameApplication using Java 17.0.9 with PID 15448 (C:\Dev\PdDungeonGame\build\classes\java\main started by Jim in C:\Dev\PdDungeonGame)
+PENIS 2024-06-08T20:43:16.976+0100 DEBUG Running with Spring Boot v3.3.0, Spring v6.1.8
+PENIS 2024-06-08T20:43:16.978+0100 INFO No active profile set, falling back to 1 default profile: "default"
+PENIS 2024-06-08T20:43:16.980+0100 DEBUG Loading source class com.example.demo.PdDungeonGameApplication
+PENIS 2024-06-08T20:43:17.083+0100 DEBUG Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5
+PENIS 2024-06-08T20:43:17.139+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+PENIS 2024-06-08T20:43:17.210+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+PENIS 2024-06-08T20:43:17.443+0100 DEBUG Identified candidate component class: file [C:\Dev\PdDungeonGame\build\classes\java\main\com\example\demo\Game\GameController.class]
+PENIS 2024-06-08T20:43:18.643+0100 DEBUG Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+PENIS 2024-06-08T20:43:18.663+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+PENIS 2024-06-08T20:43:18.682+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+PENIS 2024-06-08T20:43:18.686+0100 DEBUG Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+PENIS 2024-06-08T20:43:18.687+0100 DEBUG Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+PENIS 2024-06-08T20:43:18.689+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+PENIS 2024-06-08T20:43:18.705+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+PENIS 2024-06-08T20:43:18.709+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+PENIS 2024-06-08T20:43:18.717+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+PENIS 2024-06-08T20:43:18.718+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+PENIS 2024-06-08T20:43:18.724+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+PENIS 2024-06-08T20:43:18.750+0100 DEBUG Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+PENIS 2024-06-08T20:43:18.751+0100 DEBUG Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+PENIS 2024-06-08T20:43:18.758+0100 DEBUG Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@45bf6f39]
+PENIS 2024-06-08T20:43:18.761+0100 DEBUG Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+PENIS 2024-06-08T20:43:18.762+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+PENIS 2024-06-08T20:43:18.853+0100 DEBUG Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+PENIS 2024-06-08T20:43:18.853+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+PENIS 2024-06-08T20:43:18.858+0100 DEBUG Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+PENIS 2024-06-08T20:43:18.858+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+PENIS 2024-06-08T20:43:18.868+0100 DEBUG Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:18.884+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+PENIS 2024-06-08T20:43:18.945+0100 DEBUG Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:18.947+0100 DEBUG Creating shared instance of singleton bean 'sslBundleRegistry'
+PENIS 2024-06-08T20:43:18.948+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
+PENIS 2024-06-08T20:43:18.957+0100 DEBUG Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+PENIS 2024-06-08T20:43:18.961+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+PENIS 2024-06-08T20:43:18.965+0100 DEBUG Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
+PENIS 2024-06-08T20:43:18.967+0100 DEBUG Creating shared instance of singleton bean 'fileWatcher'
+PENIS 2024-06-08T20:43:18.969+0100 DEBUG Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'fileWatcher'
+PENIS 2024-06-08T20:43:18.996+0100 DEBUG Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+PENIS 2024-06-08T20:43:18.998+0100 DEBUG Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:19.000+0100 DEBUG Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+PENIS 2024-06-08T20:43:19.001+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+PENIS 2024-06-08T20:43:19.005+0100 DEBUG Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+PENIS 2024-06-08T20:43:19.006+0100 DEBUG Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:19.009+0100 DEBUG Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+PENIS 2024-06-08T20:43:19.010+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+PENIS 2024-06-08T20:43:19.012+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:19.094+0100 DEBUG Creating shared instance of singleton bean 'errorPageCustomizer'
+PENIS 2024-06-08T20:43:19.095+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+PENIS 2024-06-08T20:43:19.096+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+PENIS 2024-06-08T20:43:19.099+0100 DEBUG Creating shared instance of singleton bean 'dispatcherServletRegistration'
+PENIS 2024-06-08T20:43:19.100+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+PENIS 2024-06-08T20:43:19.102+0100 DEBUG Creating shared instance of singleton bean 'dispatcherServlet'
+PENIS 2024-06-08T20:43:19.102+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+PENIS 2024-06-08T20:43:19.104+0100 DEBUG Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+PENIS 2024-06-08T20:43:19.115+0100 DEBUG Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+PENIS 2024-06-08T20:43:19.144+0100 DEBUG Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+PENIS 2024-06-08T20:43:19.144+0100 DEBUG Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+PENIS 2024-06-08T20:43:19.148+0100 DEBUG Creating shared instance of singleton bean 'multipartConfigElement'
+PENIS 2024-06-08T20:43:19.149+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+PENIS 2024-06-08T20:43:19.150+0100 DEBUG Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+PENIS 2024-06-08T20:43:19.164+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+PENIS 2024-06-08T20:43:19.177+0100 DEBUG Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+PENIS 2024-06-08T20:43:19.538+0100 DEBUG Code archive: C:\Users\Jim\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\3.3.0\83d42f81f312d71b9425f58d1d3f9e8970e51b22\spring-boot-3.3.0.jar
+PENIS 2024-06-08T20:43:19.539+0100 DEBUG Code archive: C:\Users\Jim\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\3.3.0\83d42f81f312d71b9425f58d1d3f9e8970e51b22\spring-boot-3.3.0.jar
+PENIS 2024-06-08T20:43:19.540+0100 DEBUG None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+PENIS 2024-06-08T20:43:19.594+0100 INFO Tomcat initialized with port 8081 (http)
+PENIS 2024-06-08T20:43:19.622+0100 INFO Initializing ProtocolHandler ["http-nio-8081"]
+PENIS 2024-06-08T20:43:19.624+0100 DEBUG Setting state for [Connector["http-nio-8081"]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.626+0100 DEBUG Setting state for [StandardService[Tomcat]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.627+0100 DEBUG Setting state for [StandardServer[-1]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.629+0100 DEBUG Setting state for [StandardServer[-1]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.630+0100 DEBUG Setting state for [StandardServer[-1]] to [STARTING]
+PENIS 2024-06-08T20:43:19.634+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@63dfada0] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.635+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@63dfada0] to [STARTING]
+PENIS 2024-06-08T20:43:19.637+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@63dfada0] to [STARTED]
+PENIS 2024-06-08T20:43:19.638+0100 DEBUG Setting state for [StandardService[Tomcat]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.639+0100 INFO Starting service [Tomcat]
+PENIS 2024-06-08T20:43:19.639+0100 DEBUG Setting state for [StandardService[Tomcat]] to [STARTING]
+PENIS 2024-06-08T20:43:19.640+0100 DEBUG Setting state for [StandardEngine[Tomcat]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.641+0100 INFO Starting Servlet engine: [Apache Tomcat/10.1.24]
+PENIS 2024-06-08T20:43:19.644+0100 DEBUG Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.647+0100 DEBUG Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.647+0100 DEBUG Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.649+0100 DEBUG Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.650+0100 DEBUG Setting state for [SimpleRealm[StandardEngine[Tomcat]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.652+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.653+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.655+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.656+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.657+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.658+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.690+0100 DEBUG Setting state for [org.apache.catalina.webresources.StandardRoot@4f94e148] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.695+0100 DEBUG Setting state for [org.apache.catalina.webresources.StandardRoot@4f94e148] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.696+0100 DEBUG Setting state for [org.apache.catalina.webresources.StandardRoot@4f94e148] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.700+0100 DEBUG Setting state for [org.apache.catalina.webresources.DirResourceSet@655a01d8] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.703+0100 DEBUG Setting state for [org.apache.catalina.webresources.DirResourceSet@655a01d8] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.704+0100 DEBUG Setting state for [org.apache.catalina.webresources.DirResourceSet@655a01d8] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.705+0100 DEBUG Setting state for [org.apache.catalina.webresources.DirResourceSet@655a01d8] to [STARTING]
+PENIS 2024-06-08T20:43:19.705+0100 DEBUG Setting state for [org.apache.catalina.webresources.DirResourceSet@655a01d8] to [STARTED]
+PENIS 2024-06-08T20:43:19.706+0100 DEBUG Setting state for [org.apache.catalina.webresources.StandardRoot@4f94e148] to [STARTING]
+PENIS 2024-06-08T20:43:19.706+0100 DEBUG Setting state for [org.apache.catalina.webresources.StandardRoot@4f94e148] to [STARTED]
+PENIS 2024-06-08T20:43:19.707+0100 DEBUG Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.709+0100 DEBUG Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.709+0100 DEBUG Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.709+0100 DEBUG Starting this Loader
+PENIS 2024-06-08T20:43:19.728+0100 DEBUG Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.729+0100 DEBUG Setting state for [WebappLoader[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.757+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.758+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.759+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.759+0100 DEBUG Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.760+0100 DEBUG Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.761+0100 DEBUG Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.763+0100 DEBUG Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.764+0100 DEBUG Setting state for [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.764+0100 DEBUG Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.765+0100 DEBUG Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.765+0100 DEBUG Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.766+0100 DEBUG Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.766+0100 DEBUG Setting state for [StandardContextValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.766+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.767+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.767+0100 DEBUG No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+PENIS 2024-06-08T20:43:19.777+0100 DEBUG Configured a manager of class [org.apache.catalina.session.StandardManager]
+PENIS 2024-06-08T20:43:19.779+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@43aeb5e0] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.780+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@43aeb5e0] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.780+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@43aeb5e0] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.782+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@43aeb5e0] to [STARTING]
+PENIS 2024-06-08T20:43:19.783+0100 DEBUG Setting state for [org.apache.catalina.deploy.NamingResourcesImpl@43aeb5e0] to [STARTED]
+PENIS 2024-06-08T20:43:19.804+0100 INFO Initializing Spring embedded WebApplicationContext
+PENIS 2024-06-08T20:43:19.805+0100 DEBUG Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+PENIS 2024-06-08T20:43:19.810+0100 INFO Root WebApplicationContext: initialization completed in 2724 ms
+PENIS 2024-06-08T20:43:19.819+0100 DEBUG Creating shared instance of singleton bean 'requestContextFilter'
+PENIS 2024-06-08T20:43:19.824+0100 DEBUG Creating shared instance of singleton bean 'formContentFilter'
+PENIS 2024-06-08T20:43:19.825+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+PENIS 2024-06-08T20:43:19.831+0100 DEBUG Creating shared instance of singleton bean 'characterEncodingFilter'
+PENIS 2024-06-08T20:43:19.844+0100 DEBUG Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+PENIS 2024-06-08T20:43:19.844+0100 DEBUG Mapping servlets: dispatcherServlet urls=[/]
+PENIS 2024-06-08T20:43:19.851+0100 DEBUG Add container child [StandardWrapper[dispatcherServlet]] to container [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]
+PENIS 2024-06-08T20:43:19.851+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.852+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.853+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.855+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.856+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.858+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.859+0100 DEBUG Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.860+0100 DEBUG Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.861+0100 DEBUG Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.861+0100 DEBUG Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.862+0100 DEBUG Setting state for [StandardWrapperValve[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.863+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.863+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.864+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTING]
+PENIS 2024-06-08T20:43:19.864+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[].StandardWrapper[dispatcherServlet]] to [STARTED]
+PENIS 2024-06-08T20:43:19.942+0100 DEBUG Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.944+0100 DEBUG Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.945+0100 DEBUG Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.946+0100 DEBUG Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@3d19d85] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.947+0100 DEBUG Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@3d19d85] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.948+0100 DEBUG Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@3d19d85] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.949+0100 DEBUG Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@3d19d85] to [STARTING]
+PENIS 2024-06-08T20:43:19.949+0100 DEBUG Setting state for [org.springframework.boot.web.embedded.tomcat.LazySessionIdGenerator@3d19d85] to [STARTED]
+PENIS 2024-06-08T20:43:19.951+0100 DEBUG Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.952+0100 DEBUG Setting state for [StandardManager[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.964+0100 DEBUG Filter 'requestContextFilter' configured for use
+PENIS 2024-06-08T20:43:19.974+0100 DEBUG Filter 'characterEncodingFilter' configured for use
+PENIS 2024-06-08T20:43:19.974+0100 DEBUG Filter 'formContentFilter' configured for use
+PENIS 2024-06-08T20:43:19.975+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTING]
+PENIS 2024-06-08T20:43:19.977+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]] to [STARTED]
+PENIS 2024-06-08T20:43:19.977+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.978+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.978+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.979+0100 DEBUG Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.979+0100 DEBUG Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.979+0100 DEBUG Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.980+0100 DEBUG Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.981+0100 DEBUG Setting state for [ErrorReportValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.982+0100 DEBUG Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.982+0100 DEBUG Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.983+0100 DEBUG Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.984+0100 DEBUG Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.984+0100 DEBUG Setting state for [StandardHostValve[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.986+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.987+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat].StandardHost[localhost]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.987+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTING]
+PENIS 2024-06-08T20:43:19.988+0100 DEBUG Setting state for [StandardEngine[Tomcat].StandardHost[localhost]] to [STARTED]
+PENIS 2024-06-08T20:43:19.989+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.989+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.990+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.991+0100 DEBUG Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZING]
+PENIS 2024-06-08T20:43:19.992+0100 DEBUG Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [INITIALIZED]
+PENIS 2024-06-08T20:43:19.993+0100 DEBUG Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:19.994+0100 DEBUG Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.995+0100 DEBUG Setting state for [StandardEngineValve[StandardEngine[Tomcat]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.997+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTING]
+PENIS 2024-06-08T20:43:19.998+0100 DEBUG Setting state for [StandardPipeline[StandardEngine[Tomcat]]] to [STARTED]
+PENIS 2024-06-08T20:43:19.998+0100 DEBUG Setting state for [StandardEngine[Tomcat]] to [STARTING]
+PENIS 2024-06-08T20:43:20.004+0100 DEBUG Setting state for [StandardEngine[Tomcat]] to [STARTED]
+PENIS 2024-06-08T20:43:20.005+0100 DEBUG Setting state for [org.apache.catalina.core.StandardThreadExecutor@73ae0257] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:20.015+0100 DEBUG Setting state for [org.apache.catalina.core.StandardThreadExecutor@73ae0257] to [STARTING]
+PENIS 2024-06-08T20:43:20.017+0100 DEBUG Setting state for [org.apache.catalina.core.StandardThreadExecutor@73ae0257] to [STARTED]
+PENIS 2024-06-08T20:43:20.018+0100 DEBUG Setting state for [org.apache.catalina.mapper.MapperListener@1e236278] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:20.018+0100 DEBUG Setting state for [org.apache.catalina.mapper.MapperListener@1e236278] to [STARTING]
+PENIS 2024-06-08T20:43:20.020+0100 DEBUG Registered host [localhost]
+PENIS 2024-06-08T20:43:20.023+0100 DEBUG Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+PENIS 2024-06-08T20:43:20.024+0100 DEBUG Register Context [] for service [StandardService[Tomcat]]
+PENIS 2024-06-08T20:43:20.025+0100 DEBUG Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+PENIS 2024-06-08T20:43:20.026+0100 DEBUG Setting state for [org.apache.catalina.mapper.MapperListener@1e236278] to [STARTED]
+PENIS 2024-06-08T20:43:20.027+0100 DEBUG Setting state for [StandardService[Tomcat]] to [STARTED]
+PENIS 2024-06-08T20:43:20.029+0100 DEBUG Setting state for [StandardServer[-1]] to [STARTED]
+PENIS 2024-06-08T20:43:20.045+0100 DEBUG Creating shared instance of singleton bean 'pdDungeonGameApplication'
+PENIS 2024-06-08T20:43:20.047+0100 DEBUG Creating shared instance of singleton bean 'gameController'
+PENIS 2024-06-08T20:43:20.059+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+PENIS 2024-06-08T20:43:20.061+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+PENIS 2024-06-08T20:43:20.063+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+PENIS 2024-06-08T20:43:20.071+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+PENIS 2024-06-08T20:43:20.073+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+PENIS 2024-06-08T20:43:20.075+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.076+0100 DEBUG Creating shared instance of singleton bean 'threadPoolTaskExecutorBuilder'
+PENIS 2024-06-08T20:43:20.079+0100 DEBUG Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+PENIS 2024-06-08T20:43:20.086+0100 DEBUG Autowiring by type from bean name 'threadPoolTaskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+PENIS 2024-06-08T20:43:20.094+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.095+0100 DEBUG Creating shared instance of singleton bean 'taskExecutorBuilder'
+PENIS 2024-06-08T20:43:20.096+0100 DEBUG Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+PENIS 2024-06-08T20:43:20.100+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.103+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration' via constructor to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+PENIS 2024-06-08T20:43:20.105+0100 DEBUG Creating shared instance of singleton bean 'simpleAsyncTaskExecutorBuilder'
+PENIS 2024-06-08T20:43:20.109+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration'
+PENIS 2024-06-08T20:43:20.111+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+PENIS 2024-06-08T20:43:20.112+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+PENIS 2024-06-08T20:43:20.115+0100 DEBUG Creating shared instance of singleton bean 'error'
+PENIS 2024-06-08T20:43:20.116+0100 DEBUG Creating shared instance of singleton bean 'beanNameViewResolver'
+PENIS 2024-06-08T20:43:20.119+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+PENIS 2024-06-08T20:43:20.121+0100 DEBUG Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+PENIS 2024-06-08T20:43:20.129+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.129+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+PENIS 2024-06-08T20:43:20.130+0100 DEBUG Creating shared instance of singleton bean 'conventionErrorViewResolver'
+PENIS 2024-06-08T20:43:20.135+0100 DEBUG Creating shared instance of singleton bean 'errorAttributes'
+PENIS 2024-06-08T20:43:20.141+0100 DEBUG Creating shared instance of singleton bean 'basicErrorController'
+PENIS 2024-06-08T20:43:20.142+0100 DEBUG Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+PENIS 2024-06-08T20:43:20.153+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+PENIS 2024-06-08T20:43:20.158+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+PENIS 2024-06-08T20:43:20.158+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+PENIS 2024-06-08T20:43:20.158+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1a38ba58'
+PENIS 2024-06-08T20:43:20.170+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+PENIS 2024-06-08T20:43:20.171+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+PENIS 2024-06-08T20:43:20.171+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+PENIS 2024-06-08T20:43:20.172+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1a38ba58'
+PENIS 2024-06-08T20:43:20.174+0100 DEBUG Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+PENIS 2024-06-08T20:43:20.175+0100 DEBUG Creating shared instance of singleton bean 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.181+0100 DEBUG Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.186+0100 DEBUG Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.186+0100 DEBUG Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.186+0100 DEBUG Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.224+0100 DEBUG Creating shared instance of singleton bean 'welcomePageNotAcceptableHandlerMapping'
+PENIS 2024-06-08T20:43:20.225+0100 DEBUG Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.226+0100 DEBUG Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.226+0100 DEBUG Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.231+0100 DEBUG Creating shared instance of singleton bean 'localeResolver'
+PENIS 2024-06-08T20:43:20.236+0100 DEBUG Creating shared instance of singleton bean 'themeResolver'
+PENIS 2024-06-08T20:43:20.240+0100 DEBUG Creating shared instance of singleton bean 'flashMapManager'
+PENIS 2024-06-08T20:43:20.247+0100 DEBUG Creating shared instance of singleton bean 'mvcValidator'
+PENIS 2024-06-08T20:43:20.250+0100 DEBUG Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.266+0100 DEBUG Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+PENIS 2024-06-08T20:43:20.271+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.272+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.272+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.367+0100 DEBUG 
+	c.e.d.G.GameController:
+	{GET [/game]}: game()
+PENIS 2024-06-08T20:43:20.379+0100 DEBUG 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+PENIS 2024-06-08T20:43:20.402+0100 DEBUG 3 mappings in 'requestMappingHandlerMapping'
+PENIS 2024-06-08T20:43:20.403+0100 DEBUG Creating shared instance of singleton bean 'mvcPatternParser'
+PENIS 2024-06-08T20:43:20.404+0100 DEBUG Creating shared instance of singleton bean 'mvcUrlPathHelper'
+PENIS 2024-06-08T20:43:20.406+0100 DEBUG Creating shared instance of singleton bean 'mvcPathMatcher'
+PENIS 2024-06-08T20:43:20.407+0100 DEBUG Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+PENIS 2024-06-08T20:43:20.408+0100 DEBUG Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.409+0100 DEBUG Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.410+0100 DEBUG Creating shared instance of singleton bean 'beanNameHandlerMapping'
+PENIS 2024-06-08T20:43:20.411+0100 DEBUG Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.412+0100 DEBUG Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.415+0100 DEBUG 'beanNameHandlerMapping' {}
+PENIS 2024-06-08T20:43:20.416+0100 DEBUG Creating shared instance of singleton bean 'routerFunctionMapping'
+PENIS 2024-06-08T20:43:20.417+0100 DEBUG Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.417+0100 DEBUG Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.420+0100 DEBUG Creating shared instance of singleton bean 'messageConverters'
+PENIS 2024-06-08T20:43:20.420+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+PENIS 2024-06-08T20:43:20.435+0100 DEBUG Creating shared instance of singleton bean 'stringHttpMessageConverter'
+PENIS 2024-06-08T20:43:20.435+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+PENIS 2024-06-08T20:43:20.436+0100 DEBUG Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+PENIS 2024-06-08T20:43:20.446+0100 DEBUG Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+PENIS 2024-06-08T20:43:20.446+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+PENIS 2024-06-08T20:43:20.447+0100 DEBUG Creating shared instance of singleton bean 'jacksonObjectMapper'
+PENIS 2024-06-08T20:43:20.447+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+PENIS 2024-06-08T20:43:20.449+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.450+0100 DEBUG Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+PENIS 2024-06-08T20:43:20.450+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+PENIS 2024-06-08T20:43:20.452+0100 DEBUG Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+PENIS 2024-06-08T20:43:20.460+0100 DEBUG Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+PENIS 2024-06-08T20:43:20.462+0100 DEBUG Creating shared instance of singleton bean 'parameterNamesModule'
+PENIS 2024-06-08T20:43:20.462+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+PENIS 2024-06-08T20:43:20.473+0100 DEBUG Creating shared instance of singleton bean 'jsonMixinModule'
+PENIS 2024-06-08T20:43:20.474+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration'
+PENIS 2024-06-08T20:43:20.475+0100 DEBUG Creating shared instance of singleton bean 'jsonMixinModuleEntries'
+PENIS 2024-06-08T20:43:20.475+0100 DEBUG Autowiring by type from bean name 'jsonMixinModuleEntries' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.476+0100 DEBUG @EnableAutoConfiguration was declared on a class in the package 'com.example.demo'. Automatic @Repository and @Entity scanning is enabled.
+PENIS 2024-06-08T20:43:20.493+0100 DEBUG Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.494+0100 DEBUG Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'jsonMixinModuleEntries'
+PENIS 2024-06-08T20:43:20.498+0100 DEBUG Creating shared instance of singleton bean 'jsonComponentModule'
+PENIS 2024-06-08T20:43:20.498+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+PENIS 2024-06-08T20:43:20.508+0100 DEBUG Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.508+0100 DEBUG Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+PENIS 2024-06-08T20:43:20.514+0100 DEBUG Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+PENIS 2024-06-08T20:43:20.539+0100 DEBUG Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+PENIS 2024-06-08T20:43:20.557+0100 DEBUG Creating shared instance of singleton bean 'resourceHandlerMapping'
+PENIS 2024-06-08T20:43:20.559+0100 DEBUG Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.559+0100 DEBUG Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.560+0100 DEBUG Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+PENIS 2024-06-08T20:43:20.589+0100 DEBUG 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+PENIS 2024-06-08T20:43:20.591+0100 DEBUG Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+PENIS 2024-06-08T20:43:20.594+0100 DEBUG Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+PENIS 2024-06-08T20:43:20.597+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.597+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.598+0100 DEBUG Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+PENIS 2024-06-08T20:43:20.642+0100 DEBUG Creating shared instance of singleton bean 'applicationTaskExecutor'
+PENIS 2024-06-08T20:43:20.644+0100 DEBUG Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+PENIS 2024-06-08T20:43:20.663+0100 DEBUG Initializing ExecutorService 'applicationTaskExecutor'
+PENIS 2024-06-08T20:43:20.690+0100 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+PENIS 2024-06-08T20:43:20.763+0100 DEBUG Creating shared instance of singleton bean 'handlerFunctionAdapter'
+PENIS 2024-06-08T20:43:20.767+0100 DEBUG Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+PENIS 2024-06-08T20:43:20.769+0100 DEBUG Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+PENIS 2024-06-08T20:43:20.769+0100 DEBUG Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+PENIS 2024-06-08T20:43:20.774+0100 DEBUG Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+PENIS 2024-06-08T20:43:20.775+0100 DEBUG Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+PENIS 2024-06-08T20:43:20.776+0100 DEBUG Creating shared instance of singleton bean 'handlerExceptionResolver'
+PENIS 2024-06-08T20:43:20.776+0100 DEBUG Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.781+0100 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+PENIS 2024-06-08T20:43:20.792+0100 DEBUG Creating shared instance of singleton bean 'mvcViewResolver'
+PENIS 2024-06-08T20:43:20.793+0100 DEBUG Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+PENIS 2024-06-08T20:43:20.797+0100 DEBUG Creating shared instance of singleton bean 'viewNameTranslator'
+PENIS 2024-06-08T20:43:20.799+0100 DEBUG Creating shared instance of singleton bean 'defaultViewResolver'
+PENIS 2024-06-08T20:43:20.812+0100 DEBUG Creating shared instance of singleton bean 'viewResolver'
+PENIS 2024-06-08T20:43:20.813+0100 DEBUG Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1a38ba58'
+PENIS 2024-06-08T20:43:20.817+0100 DEBUG Creating shared instance of singleton bean 'viewResolver'
+PENIS 2024-06-08T20:43:20.819+0100 DEBUG Creating shared instance of singleton bean 'thymeleafViewResolver'
+PENIS 2024-06-08T20:43:20.819+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration'
+PENIS 2024-06-08T20:43:20.821+0100 DEBUG Creating shared instance of singleton bean 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties'
+PENIS 2024-06-08T20:43:20.829+0100 DEBUG Creating shared instance of singleton bean 'templateEngine'
+PENIS 2024-06-08T20:43:20.829+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.thymeleaf.TemplateEngineConfigurations$DefaultTemplateEngineConfiguration'
+PENIS 2024-06-08T20:43:20.831+0100 DEBUG Autowiring by type from bean name 'templateEngine' via factory method to bean named 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties'
+PENIS 2024-06-08T20:43:20.897+0100 DEBUG Creating shared instance of singleton bean 'defaultTemplateResolver'
+PENIS 2024-06-08T20:43:20.898+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration'
+PENIS 2024-06-08T20:43:20.899+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration' via constructor to bean named 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties'
+PENIS 2024-06-08T20:43:20.899+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45be7cd5'
+PENIS 2024-06-08T20:43:20.910+0100 DEBUG Autowiring by type from bean name 'thymeleafViewResolver' via factory method to bean named 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties'
+PENIS 2024-06-08T20:43:20.910+0100 DEBUG Autowiring by type from bean name 'thymeleafViewResolver' via factory method to bean named 'templateEngine'
+PENIS 2024-06-08T20:43:20.914+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+PENIS 2024-06-08T20:43:20.915+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+PENIS 2024-06-08T20:43:20.915+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+PENIS 2024-06-08T20:43:20.916+0100 DEBUG Creating shared instance of singleton bean 'applicationAvailability'
+PENIS 2024-06-08T20:43:20.919+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+PENIS 2024-06-08T20:43:20.920+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+PENIS 2024-06-08T20:43:20.920+0100 DEBUG Creating shared instance of singleton bean 'lifecycleProcessor'
+PENIS 2024-06-08T20:43:20.921+0100 DEBUG Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+PENIS 2024-06-08T20:43:20.922+0100 DEBUG Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+PENIS 2024-06-08T20:43:20.925+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+PENIS 2024-06-08T20:43:20.926+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+PENIS 2024-06-08T20:43:20.931+0100 DEBUG Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+PENIS 2024-06-08T20:43:20.934+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+PENIS 2024-06-08T20:43:20.934+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+PENIS 2024-06-08T20:43:20.935+0100 DEBUG Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+PENIS 2024-06-08T20:43:20.938+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.939+0100 DEBUG Creating shared instance of singleton bean 'threadPoolTaskSchedulerBuilder'
+PENIS 2024-06-08T20:43:20.940+0100 DEBUG Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+PENIS 2024-06-08T20:43:20.942+0100 DEBUG Autowiring by type from bean name 'threadPoolTaskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+PENIS 2024-06-08T20:43:20.950+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$TaskSchedulerBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.950+0100 DEBUG Creating shared instance of singleton bean 'taskSchedulerBuilder'
+PENIS 2024-06-08T20:43:20.951+0100 DEBUG Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+PENIS 2024-06-08T20:43:20.956+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration'
+PENIS 2024-06-08T20:43:20.957+0100 DEBUG Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration' via constructor to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+PENIS 2024-06-08T20:43:20.957+0100 DEBUG Creating shared instance of singleton bean 'simpleAsyncTaskSchedulerBuilder'
+PENIS 2024-06-08T20:43:20.962+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+PENIS 2024-06-08T20:43:20.964+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration'
+PENIS 2024-06-08T20:43:20.968+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration'
+PENIS 2024-06-08T20:43:20.970+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestClientAutoConfiguration'
+PENIS 2024-06-08T20:43:20.970+0100 DEBUG Creating shared instance of singleton bean 'httpMessageConvertersRestClientCustomizer'
+PENIS 2024-06-08T20:43:20.972+0100 DEBUG Creating shared instance of singleton bean 'restClientSsl'
+PENIS 2024-06-08T20:43:20.972+0100 DEBUG Autowiring by type from bean name 'restClientSsl' via factory method to bean named 'sslBundleRegistry'
+PENIS 2024-06-08T20:43:20.973+0100 DEBUG Creating shared instance of singleton bean 'restClientBuilderConfigurer'
+PENIS 2024-06-08T20:43:20.975+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+PENIS 2024-06-08T20:43:20.976+0100 DEBUG Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+PENIS 2024-06-08T20:43:20.976+0100 DEBUG Creating shared instance of singleton bean 'multipartResolver'
+PENIS 2024-06-08T20:43:21.015+0100 DEBUG Starting beans in phase -2147483647
+PENIS 2024-06-08T20:43:21.016+0100 DEBUG Successfully started bean 'springBootLoggingLifecycle'
+PENIS 2024-06-08T20:43:21.016+0100 DEBUG Starting beans in phase 2147481599
+PENIS 2024-06-08T20:43:21.019+0100 DEBUG Setting state for [Connector["http-nio-8081"]] to [STARTING_PREP]
+PENIS 2024-06-08T20:43:21.020+0100 DEBUG Setting state for [Connector["http-nio-8081"]] to [STARTING]
+PENIS 2024-06-08T20:43:21.021+0100 INFO Starting ProtocolHandler ["http-nio-8081"]
+PENIS 2024-06-08T20:43:21.082+0100 DEBUG Setting state for [Connector["http-nio-8081"]] to [STARTED]
+PENIS 2024-06-08T20:43:21.089+0100 INFO Tomcat started on port 8081 (http) with context path '/'
+PENIS 2024-06-08T20:43:21.092+0100 DEBUG Successfully started bean 'webServerStartStop'
+PENIS 2024-06-08T20:43:21.093+0100 DEBUG Starting beans in phase 2147482623
+PENIS 2024-06-08T20:43:21.093+0100 DEBUG Successfully started bean 'webServerGracefulShutdown'
+PENIS 2024-06-08T20:43:21.093+0100 DEBUG Starting beans in phase 2147483647
+PENIS 2024-06-08T20:43:21.124+0100 DEBUG 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration matched:
+      - @ConditionalOnMissingClass did not find unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (server.servlet.encoding.enabled) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.servlet.multipart.enabled) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   RestClientAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.client.RestClient' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (NotReactiveWebApplicationCondition)
+
+   RestClientAutoConfiguration#httpMessageConvertersRestClientCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.HttpMessageConvertersRestClientCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestClientAutoConfiguration#restClientBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.client.RestClient$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestClientAutoConfiguration#restClientBuilderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestClientBuilderConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestClientAutoConfiguration#restClientSsl matched:
+      - @ConditionalOnBean (types: org.springframework.boot.ssl.SslBundles; SearchStrategy: all) found bean 'sslBundleRegistry'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestClientSsl; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (NotReactiveWebApplicationCondition)
+
+   RestTemplateAutoConfiguration#restTemplateBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRequest' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched:
+      - @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SqlInitializationAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
+
+   SslAutoConfiguration#sslBundleRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorBuilderConfiguration#taskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder,org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerBuilderConfiguration#taskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder,org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TemplateEngineConfigurations.DefaultTemplateEngineConfiguration#templateEngine matched:
+      - @ConditionalOnMissingBean (types: org.thymeleaf.spring6.ISpringTemplateEngine; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.thymeleaf.templatemode.TemplateMode', 'org.thymeleaf.spring6.SpringTemplateEngine' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.DefaultTemplateResolverConfiguration matched:
+      - @ConditionalOnMissingBean (names: defaultTemplateResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.thymeleaf.enabled) matched (OnPropertyCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration.ThymeleafViewResolverConfiguration#thymeleafViewResolver matched:
+      - @ConditionalOnMissingBean (names: thymeleafViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSocketServletAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'jakarta.websocket.server.ServerContainer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched:
+      - @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.jms.ConnectionFactory' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.jms.ConnectionFactory' (OnClassCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   Cache2kCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.cache2k.Cache2kBuilder' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.cassandra.ReactiveSession' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   ClientHttpConnectorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CodecsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   CouchbaseReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   DataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   ElasticsearchClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'co.elastic.clients.elasticsearch.ElasticsearchClient' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ElasticsearchTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.repository.ElasticsearchRepository' (OnClassCondition)
+
+   ElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestClientBuilder' (OnClassCondition)
+
+   EmbeddedLdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.ee10.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   ErrorWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GraphQlAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlQueryByExampleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlQuerydslAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.querydsl.core.Query' (OnClassCondition)
+
+   GraphQlRSocketAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlReactiveQueryByExampleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlReactiveQuerydslAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.querydsl.core.Query' (OnClassCondition)
+
+   GraphQlWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebFluxSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GraphQlWebMvcSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.JakartaWebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.persistence.EntityManager' (OnClassCondition)
+
+   HttpHandlerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   InfluxDbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JdbcClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate' (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+
+   JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.jms.Message' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   JtaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.transaction.Transaction' (OnClassCondition)
+
+   KafkaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
+
+   LdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
+
+   LdapRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.activation.MimeType' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.mail.javamail.JavaMailSenderImpl' (OnBeanCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   NettyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.util.NettyRuntime' (OnClassCondition)
+
+   OAuth2AuthorizationServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.authorization.OAuth2Authorization' (OnClassCondition)
+
+   OAuth2AuthorizationServerJwtAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.authorization.OAuth2Authorization' (OnClassCondition)
+
+   OAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   OAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.authentication.BearerTokenAuthenticationToken' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   PulsarAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.pulsar.client.api.PulsarClient' (OnClassCondition)
+
+   PulsarReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.pulsar.client.api.PulsarClient' (OnClassCondition)
+
+   QuartzAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
+
+   R2dbcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   R2dbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
+
+   RSocketGraphQlClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
+
+   RSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketRequesterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
+
+   RSocketServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
+
+   RSocketStrategiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.buffer.PooledByteBufAllocator' (OnClassCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactiveElasticsearchClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'co.elastic.clients.transport.ElasticsearchTransport' (OnClassCondition)
+
+   ReactiveElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ReactiveElasticsearchClient' (OnClassCondition)
+
+   ReactiveMultipartAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   ReactiveOAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveOAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   ReactorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Hooks' (OnClassCondition)
+
+   RedisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   RedisReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   RedisRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   Saml2RelyingPartyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServletWebServerFactoryAutoConfiguration.ForwardedHeaderFilterConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.ee10.webapp.WebAppContext' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.web.PageableHandlerMethodArgumentResolver' (OnClassCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TemplateEngineConfigurations.ReactiveTemplateEngineConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.DataAttributeDialectConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.mxab.thymeleaf.extras.dataattribute.dialect.DataAttributeDialect' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafSecurityDialectConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.thymeleaf.extras.springsecurity6.dialect.SpringSecurityDialect', 'org.springframework.security.web.server.csrf.CsrfToken' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebLayoutConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration#resourceUrlEncodingFilter:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   TransactionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionManagerCustomizationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   ValidationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.validation.executable.ExecutableValidator' (OnClassCondition)
+
+   WebClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   WebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.problemdetails.enabled=true) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebServiceTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.oxm.Marshaller' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSessionIdResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Mono' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   WebSocketReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.JettyWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.ee10.websocket.jakarta.server.config.JakartaWebSocketServletContainerInitializer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.UndertowWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.transaction.TransactionManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+PENIS 2024-06-08T20:43:21.164+0100 INFO Started PdDungeonGameApplication in 5.259 seconds (process running for 9.09)
+PENIS 2024-06-08T20:43:21.168+0100 DEBUG Application availability state LivenessState changed to CORRECT
+PENIS 2024-06-08T20:43:21.172+0100 DEBUG Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+PENIS 2024-06-08T20:43:21.172+0100 INFO here
+PENIS 2024-06-08T20:43:21.173+0100 DEBUG debug
