@@ -1,6 +1,6 @@
 package com.example.demo.Loot;
 
-public class Loot {
+public abstract class Loot {
     String name;
     Rarity rarity;
 
@@ -24,6 +24,9 @@ public class Loot {
     public void setRarity(Rarity rarity) {
         this.rarity = rarity;
     }
+
+    public abstract String getLootType();
+
 
 
 }

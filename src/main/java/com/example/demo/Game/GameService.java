@@ -69,11 +69,11 @@ public class GameService {
 
 //     + ". Choose a direction (N, E, S, W):"
 
-    public Monster shouldSpawnMonster() {
+    public Monster shouldSpawnMonster(int playerLevel) {
         Random random = new Random();
         int randomNumber = random.nextInt(2);
         if (randomNumber == 1) {
-            return MonsterService.generateRandomMonster();
+            return MonsterService.generateRandomMonster(playerLevel);
         } else {
             return null;
         }
@@ -89,13 +89,13 @@ public class GameService {
             currentRoom = nextRoom;
             System.out.println("You have moved to " + currentRoom.getName() + ".");
 
-            Monster currentMonster = shouldSpawnMonster();
+            Monster currentMonster = shouldSpawnMonster(player.getLevel());
             if (currentMonster != null) {
                 System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
                 Utils.sleep(3000);
                 combatService.combatLoop(player, currentMonster); // Assuming gameSetup.getPlayer() returns the current player
                 System.out.println("Fight has ended... moving on");
-                lootService.generateLoot();
+                lootService.generateLoot(currentMonster);
             } else {
                 System.out.println("No monster has appeared.");
             }
