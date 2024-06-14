@@ -3,6 +3,8 @@ package com.example.demo.Game;
 import com.example.demo.AppUtilities.LogService;
 import com.example.demo.Combat.CombatService;
 import com.example.demo.Loot.Loot;
+import com.example.demo.Loot.LootService;
+import com.example.demo.Monster.MonsterService;
 import com.example.demo.Room.RoomService;
 import com.example.demo.Monster.Monster;
 import com.example.demo.Player.Player;
@@ -19,6 +21,7 @@ public class GameService {
 
     RoomService roomService = new RoomService();
     CombatService combatService = new CombatService();
+    LootService lootService = new LootService();
     LogService logService = new LogService();
     GameSetup gameSetup = new GameSetup();
     private Scanner scanner;
@@ -26,29 +29,17 @@ public class GameService {
     public Room currentRoom;
 
     boolean gameRunning;
+    Player player;
 
     public void startGame() {
         gameRunning = true;
-        Player player = gameSetup.initialisePlayer();
+        player = gameSetup.initialisePlayer();
         currentRoom = gameSetup.initialiseCurrentRoom();
         askForDirection();
 
         while (gameRunning && player.getHealth() > 0) {
             displayMainInfo(player);
-            Monster currentMonster = shouldSpawnMonster();
-            if (currentMonster != null) {
-                System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
-                Utils.sleep(3000);
-                combatService.combatLoop(player, currentMonster);
-                System.out.println("Fight has ended... moving on");
-            } else {
-                System.out.println("No monster has appeared.");
-                askForDirection();
-            }
-
-            scanner = new Scanner(System.in);
-            String input = scanner.nextLine();
-
+            System.out.println("ere");
         }
     }
 
@@ -79,15 +70,15 @@ public class GameService {
 //     + ". Choose a direction (N, E, S, W):"
 
     public Monster shouldSpawnMonster() {
-//        Random random = new Random();
-//        int randomNumber = random.nextInt(2);
-//        if (randomNumber == 1) {
-//            return MonsterService.generateRandomMonster();
-//        } else {
-//            return null;
-//        }
+        Random random = new Random();
+        int randomNumber = random.nextInt(2);
+        if (randomNumber == 1) {
+            return MonsterService.generateRandomMonster();
+        } else {
+            return null;
+        }
         // uncomment for testing
-        return null;
+//        return null;
     }
 
 
@@ -97,12 +88,25 @@ public class GameService {
         if (nextRoom != null) {
             currentRoom = nextRoom;
             System.out.println("You have moved to " + currentRoom.getName() + ".");
+
+            Monster currentMonster = shouldSpawnMonster();
+            if (currentMonster != null) {
+                System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
+                Utils.sleep(3000);
+                combatService.combatLoop(player, currentMonster); // Assuming gameSetup.getPlayer() returns the current player
+                System.out.println("Fight has ended... moving on");
+                lootService.generateLoot();
+            } else {
+                System.out.println("No monster has appeared.");
+            }
+
         } else {
             System.out.println("You cannot move in that direction.");
         }
+
+        askForDirection();
     }
 
-    // Add necessary methods to get current room description and health
     public String getCurrentRoomDescription() {
         return currentRoom.getDescription();  // Assuming Room has a getDescription() method
     }

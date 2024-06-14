@@ -19,7 +19,6 @@ public class GameSetup {
 
     private Scanner scanner;
 
-
     public Player initialisePlayer() {
         System.out.println("Welcome to the dungeon! What should we call you?");
         scanner = new Scanner(System.in);
