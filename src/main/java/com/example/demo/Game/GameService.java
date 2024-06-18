@@ -88,10 +88,12 @@ public class GameService {
         if (nextRoom != null) {
             currentRoom = nextRoom;
             System.out.println("You have moved to " + currentRoom.getName() + ".");
+            Utils.sleep(2000);
 
             Monster currentMonster = shouldSpawnMonster(player.getLevel());
             if (currentMonster != null) {
-                System.out.println("Monster: " + currentMonster.getName() + " has appeared!");
+                System.out.println("A " + currentMonster.getName() + " has appeared!");
+                System.out.println("It has " + currentMonster.getHealth() + " health!");
                 Utils.sleep(3000);
                 combatService.combatLoop(player, currentMonster); // Assuming gameSetup.getPlayer() returns the current player
                 System.out.println("Fight has ended... moving on");

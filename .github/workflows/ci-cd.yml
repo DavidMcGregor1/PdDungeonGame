@@ -29,3 +29,24 @@ jobs:
 
       - name: Run tests
         run: ./gradlew test
+
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      - name: Get JAR file name
+        id: jar-name
+        run: |
+          JAR_NAME=$(ls build/libs/*.jar)
+          echo "JAR_NAME=${JAR_NAME}" >> $GITHUB_ENV
+
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Build Docker image
+        run: docker build --build-arg JAR_FILE=${{ env.JAR_NAME }} -t your-dockerhub-username/your-app-name:${{ github.sha }} .
+
+      - name: Push Docker image
+        run: docker push your-dockerhub-username/your-app-name:${{ github.sha }}
+
+      - name: Logout from Docker Hub
+        run: docker logout

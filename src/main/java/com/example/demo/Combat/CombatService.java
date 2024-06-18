@@ -18,6 +18,7 @@ public class CombatService {
 
             monster.attack(player, monster);
 
+            // Check if the player is defeated after the monster's attack
             if (player.getHealth() <= 0) {
                 System.out.println(player.getName() + " is defeated!");
                 break;
@@ -26,5 +27,6 @@ public class CombatService {
 
         System.out.println("Combat loop ended");
     }
+
 
 }

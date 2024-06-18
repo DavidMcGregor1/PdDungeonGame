@@ -69,15 +69,22 @@ public class Player {
             Utils.sleep(3000);
             System.out.println("---------------------------------");
             System.out.println(" ");
+
             monster.setHealth(monster.getHealth() - player.getWeapon().getDamage());
+
+            if (monster.getHealth() < 0) {
+                monster.setHealth(0);
+            }
+
             System.out.println(monster.getName() + " has " + monster.getHealth() + " health left!");
-            Thread.sleep(3000);  // Pause for 1 second
+            Thread.sleep(3000);  // Pause for 3 seconds
             System.out.println("---------------------------------");
             System.out.println(" ");
         } catch (InterruptedException e) {
             System.out.println("Combat was interrupted");
         }
     }
+
 
 
 }
