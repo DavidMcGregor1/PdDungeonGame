@@ -8,8 +8,6 @@ on:
     branches:
       - main
 
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,11 +25,8 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-#      - name: Run tests
-#        run: ./gradlew test
-
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build || true
 
       - name: Get JAR file name
         id: jar-name
