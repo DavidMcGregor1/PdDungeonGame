@@ -46,7 +46,7 @@ jobs:
         run: docker build --build-arg JAR_FILE=${{ env.JAR_NAME }} -t your-dockerhub-username/your-app-name:${{ github.sha }} .
 
       - name: Push Docker image
-        run: docker push your-dockerhub-username/your-app-name:${{ github.sha }}
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/your-app-name:${{ github.sha }}
 
       - name: Logout from Docker Hub
         run: docker logout
