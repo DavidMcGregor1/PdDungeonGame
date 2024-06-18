@@ -35,8 +35,9 @@ jobs:
       - name: Get JAR file name
         id: jar-name
         run: |
-          JAR_NAME=$(ls build/libs/*.jar)
-          echo "JAR_NAME=${JAR_NAME}" >> $GITHUB_ENV
+            JAR_NAME=$(find build/libs -name '*.jar' -type f)
+            echo "JAR_NAME=${JAR_NAME}" >> $GITHUB_ENV
+            echo "Debug JAR_NAME: ${JAR_NAME}"  # Debugging output
 
       - name: Debug JAR_NAME2
         run: echo "JAR_NAME=${{ env.JAR_NAME }}"
